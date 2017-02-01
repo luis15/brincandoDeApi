@@ -1,0 +1,22 @@
+{
+  "name": "brincandodeapi",
+  "version": "1.0.0",
+  "description": "tentando uma api restfull em nodeJS",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luis15/brincandoDeApi.git"
+  },
+  "author": "Luis Antonio Coêlho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luis15/brincandoDeApi/issues"
+  },
+  "homepage": "https://github.com/luis15/brincandoDeApi#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
