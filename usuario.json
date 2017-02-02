@@ -1,20 +1,20 @@
 {
    "usu1" : {
       "nome" : "maria",
-	  "senha" : "senha1",
-	  "cargo" : "professora",
-	  "id": 1
+  	  "senha" : "senha1",
+  	  "cargo" : "professora",
+  	  "id": 1
    },
    "usu2" : {
       "nome" : "susana",
-	  "senha" : "senha2",
-	  "cargo" : "bibliotecária",
-	  "id": 2
+  	  "senha" : "senha2",
+  	  "cargo" : "bibliotecária",
+  	  "id": 2
    },
    "usu3" : {
       "nome" : "renato",
-	  "senha" : "senha3",
-	  "cargo" : "advogado",
-	  "id": 3
+  	  "senha" : "senha3",
+  	  "cargo" : "advogado",
+  	  "id": 3
    }
 }
