@@ -2,10 +2,10 @@ var express = require('express');
 var app = express();
 var fs = require("fs");
 
-app.get('/listUsers', function (req, res) {
+app.get('/listar', function (req, res) {
    fs.readFile( __dirname + "/" + "usuario.json", 'utf8', function (err, data) {
-       console.log( data );
-       res.end( data );
+       //console.log( data );
+       res.end( data );//envia o resultado final do chamado
    });
 })
 
