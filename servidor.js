@@ -36,7 +36,17 @@ app.get('/:id', function (req, res) {
        res.end( JSON.stringify(usu));
    });
 })
+app.delete('/delete/:id', function (req, res) {
 
+   // First read existing users.
+   fs.readFile( __dirname + "/" + "usuario.json", 'utf8', function (err, data) {
+       usuarios = JSON.parse( data );
+       delete usuarios["usu" + req.params.id];
+
+       console.log( data );
+       res.end( JSON.stringify(data));
+   });
+})
 var server = app.listen(7777, function (req, res) {
 
   var host = server.address().address
